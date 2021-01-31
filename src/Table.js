@@ -44,7 +44,6 @@ export const Table = ({ initialData }) => {
       <tbody>
         {tableData.map((instrument, index) => (
           <StyledTr key={index} data-theme={ROW_THEME[instrument.assetClass]}>
-            {" "}
             {/* data-theme is a prop for styledComponents to set the row style based on the assetClass value */}
             <td>{instrument.assetClass}</td>
             <td>{instrument.ticker}</td>

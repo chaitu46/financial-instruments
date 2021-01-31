@@ -3,7 +3,7 @@
 exports[`Table renders default Table 1`] = `
 <table
   aria-label="Financial Details"
-  class="sc-bdfBwQ cKuTTH"
+  class="sc-bdfBwQ keewPp"
 >
   <thead>
     <tr
@@ -11,7 +11,7 @@ exports[`Table renders default Table 1`] = `
     >
       <th>
         <button
-          class="sc-eCssSg hUAwKW"
+          class="sc-eCssSg gYaMmc"
           data-active="false"
           data-testid="assertClass"
           id="assertClass"
@@ -21,7 +21,7 @@ exports[`Table renders default Table 1`] = `
       </th>
       <th>
         <button
-          class="sc-eCssSg hUAwKW"
+          class="sc-eCssSg gYaMmc"
           data-active="false"
           data-testid="ticker"
           id="ticker"
@@ -31,7 +31,7 @@ exports[`Table renders default Table 1`] = `
       </th>
       <th>
         <button
-          class="sc-eCssSg hUAwKW"
+          class="sc-eCssSg gYaMmc"
           data-active="false"
           data-testid="price"
           id="price"
@@ -118,7 +118,7 @@ exports[`Table simulate asset class column sort click 1`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -126,7 +126,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="assertClass"
             id="assertClass"
@@ -136,7 +136,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="ticker"
             id="ticker"
@@ -146,7 +146,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="price"
             id="price"
@@ -234,7 +234,7 @@ exports[`Table simulate asset class column sort click 2`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -242,7 +242,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg bwlsEo"
+            class="sc-eCssSg gzmARy"
             data-active="true"
             data-testid="assertClass"
             id="assertClass"
@@ -252,7 +252,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="ticker"
             id="ticker"
@@ -262,7 +262,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="price"
             id="price"
@@ -350,7 +350,7 @@ exports[`Table simulate price column sort click 1`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -358,7 +358,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="assertClass"
             id="assertClass"
@@ -368,7 +368,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="ticker"
             id="ticker"
@@ -378,7 +378,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="price"
             id="price"
@@ -466,7 +466,7 @@ exports[`Table simulate price column sort click 2`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -474,7 +474,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="assertClass"
             id="assertClass"
@@ -484,7 +484,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="ticker"
             id="ticker"
@@ -494,7 +494,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg bwlsEo"
+            class="sc-eCssSg gzmARy"
             data-active="true"
             data-testid="price"
             id="price"
@@ -582,7 +582,7 @@ exports[`Table simulate ticker column sort click 1`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -590,7 +590,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="assertClass"
             id="assertClass"
@@ -600,7 +600,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="ticker"
             id="ticker"
@@ -610,7 +610,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="price"
             id="price"
@@ -698,7 +698,7 @@ exports[`Table simulate ticker column sort click 2`] = `
 Array [
   <table
     aria-label="Financial Details"
-    class="sc-bdfBwQ cKuTTH"
+    class="sc-bdfBwQ keewPp"
   >
     <thead>
       <tr
@@ -706,7 +706,7 @@ Array [
       >
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="assertClass"
             id="assertClass"
@@ -716,7 +716,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg bwlsEo"
+            class="sc-eCssSg gzmARy"
             data-active="true"
             data-testid="ticker"
             id="ticker"
@@ -726,7 +726,7 @@ Array [
         </th>
         <th>
           <button
-            class="sc-eCssSg hUAwKW"
+            class="sc-eCssSg gYaMmc"
             data-active="false"
             data-testid="price"
             id="price"
