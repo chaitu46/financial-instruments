@@ -3,9 +3,9 @@ import {
   ASSERT_ID,
   PRICE_ID,
   TICKER_ID,
-} from "../constants";
+} from "./constants";
 
-export default function getSortData(sortByColumn, initialData) {
+export function getSortDataByColumnName(sortByColumn, initialData) {
   switch (sortByColumn) {
     case ASSERT_ID: {
       return [

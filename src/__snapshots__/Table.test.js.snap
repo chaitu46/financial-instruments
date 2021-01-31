@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders default Table 1`] = `
+<table
+  aria-label="Financial Details"
+  class="sc-bdfBwQ cKuTTH"
+>
+  <thead>
+    <tr
+      class="sc-hKgILt eBPHrI"
+    >
+      <th>
+        <button
+          class="sc-eCssSg hUAwKW"
+          data-active="false"
+          data-testid="assertClass"
+          id="assertClass"
+        >
+          Asset Class
+        </button>
+      </th>
+      <th>
+        <button
+          class="sc-eCssSg hUAwKW"
+          data-active="false"
+          data-testid="ticker"
+          id="ticker"
+        >
+          Ticker
+        </button>
+      </th>
+      <th>
+        <button
+          class="sc-eCssSg hUAwKW"
+          data-active="false"
+          data-testid="price"
+          id="price"
+        >
+          Price
+        </button>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      class="sc-gsTCUz kHDUxD"
+      data-theme="[object Object]"
+    >
+      <td>
+        Equities
+      </td>
+      <td>
+        BETA
+      </td>
+      <td
+        class="sc-dlfnbm eWIIxE"
+        data-bg="#1d4289"
+      >
+        3791.37
+      </td>
+    </tr>
+    <tr
+      class="sc-gsTCUz ibRWgQ"
+      data-theme="[object Object]"
+    >
+      <td>
+        Credit
+      </td>
+      <td>
+        EPSILON
+      </td>
+      <td
+        class="sc-dlfnbm eWIIxE"
+        data-bg="#1d4289"
+      >
+        1168.46
+      </td>
+    </tr>
+    <tr
+      class="sc-gsTCUz jmeBcN"
+      data-theme="[object Object]"
+    >
+      <td>
+        Macro
+      </td>
+      <td>
+        EPSILON
+      </td>
+      <td
+        class="sc-dlfnbm kxGDBW"
+        data-bg="#d3273e"
+      >
+        -1096.64
+      </td>
+    </tr>
+    <tr
+      class="sc-gsTCUz kHDUxD"
+      data-theme="[object Object]"
+    >
+      <td>
+        Equities
+      </td>
+      <td>
+        GAMMA
+      </td>
+      <td
+        class="sc-dlfnbm eWIIxE"
+        data-bg="#1d4289"
+      >
+        2299.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table simulate asset class column sort click 1`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`Table simulate asset class column sort click 2`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg bwlsEo"
+            data-active="true"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`Table simulate price column sort click 1`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`Table simulate price column sort click 2`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg bwlsEo"
+            data-active="true"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`Table simulate ticker column sort click 1`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`Table simulate ticker column sort click 2`] = `
+Array [
+  <table
+    aria-label="Financial Details"
+    class="sc-bdfBwQ cKuTTH"
+  >
+    <thead>
+      <tr
+        class="sc-hKgILt eBPHrI"
+      >
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="assertClass"
+            id="assertClass"
+          >
+            Asset Class
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg bwlsEo"
+            data-active="true"
+            data-testid="ticker"
+            id="ticker"
+          >
+            Ticker
+          </button>
+        </th>
+        <th>
+          <button
+            class="sc-eCssSg hUAwKW"
+            data-active="false"
+            data-testid="price"
+            id="price"
+          >
+            Price
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          BETA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          3791.37
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz jmeBcN"
+        data-theme="[object Object]"
+      >
+        <td>
+          Macro
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm kxGDBW"
+          data-bg="#d3273e"
+        >
+          -1096.64
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz ibRWgQ"
+        data-theme="[object Object]"
+      >
+        <td>
+          Credit
+        </td>
+        <td>
+          EPSILON
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          1168.46
+        </td>
+      </tr>
+      <tr
+        class="sc-gsTCUz kHDUxD"
+        data-theme="[object Object]"
+      >
+        <td>
+          Equities
+        </td>
+        <td>
+          GAMMA
+        </td>
+        <td
+          class="sc-dlfnbm eWIIxE"
+          data-bg="#1d4289"
+        >
+          2299.1
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;

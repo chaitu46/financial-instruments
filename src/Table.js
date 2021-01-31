@@ -7,23 +7,21 @@ import {
   StyledTr,
 } from "./styledComponents";
 import { COLORS, COLUMN_IDS, COLUMN_NAMES, ROW_THEME } from "./constants";
-import getSortData from "./calculations/getSortData";
+import { getSortDataByColumnName } from "./utils";
 
 export const Table = ({ initialData }) => {
   const [sortByColumn, setSortByColumn] = useState();
-  const tableData = useMemo(() => getSortData(sortByColumn, initialData), [
-    sortByColumn,
-    initialData,
-  ]);
+  const tableData = useMemo(
+    () => getSortDataByColumnName(sortByColumn, initialData),
+    [sortByColumn, initialData]
+  );
   const handleSort = ({ currentTarget: { id } }) => {
     if (id !== sortByColumn) {
       setSortByColumn(id);
     }
   };
-
   return (
-    <StyledTable>
-      <caption>Financial details</caption>
+    <StyledTable aria-label="Financial Details">
       <thead>
         <StyledHeadRow>
           {COLUMN_NAMES.map((name, index) => (
@@ -32,6 +30,7 @@ export const Table = ({ initialData }) => {
                 onClick={handleSort}
                 data-active={COLUMN_IDS[index] === sortByColumn}
                 id={COLUMN_IDS[index]}
+                data-testid={COLUMN_IDS[index]}
               >
                 {name}
               </StyledHeaderButton>

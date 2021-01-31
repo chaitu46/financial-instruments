@@ -1,23 +1,14 @@
-import { useFetchData } from "./hooks/useFetchData";
-import { StyledTableContainer } from "./styledComponents";
+import useSampleData from "./hooks/useSampleData";
+import { StyledAppTitle, StyledTableContainer } from "./styledComponents";
 import { Table } from "./Table";
 
-const fetchUrl = "./sampleData.json";
-
 export const App = () => {
-  const { isLoading, isError, data } = useFetchData(fetchUrl, []);
-
-  if (isError) {
-    return <h1>Sorry, Somethings gone wrong!</h1>;
-  }
-  if (isLoading) {
-    return <h1>Loading...</h1>;
-  }
+  const sampleData = useSampleData();
   return (
     <div>
-      <h1>Financial Instruments - Assessment</h1>
+      <StyledAppTitle>Financial Instruments - Assessment</StyledAppTitle>
       <StyledTableContainer>
-        <Table initialData={data} />
+        <Table initialData={sampleData} />
       </StyledTableContainer>
     </div>
   );

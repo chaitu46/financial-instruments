@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useSampleData gets the sample data 1`] = `
+Array [
+  Object {
+    "assetClass": "Credit",
+    "price": 3150.67,
+    "ticker": "ALPHA",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 3791.37,
+    "ticker": "BETA",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 2299.1,
+    "ticker": "GAMMA",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 3132.66,
+    "ticker": "DELTA",
+  },
+  Object {
+    "assetClass": "Credit",
+    "price": 1168.46,
+    "ticker": "EPSILON",
+  },
+  Object {
+    "assetClass": "Credit",
+    "price": 2716.78,
+    "ticker": "ZETA",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": -3089.2,
+    "ticker": "ETA",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": 1075.44,
+    "ticker": "THETA",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": -1096.64,
+    "ticker": "IOTA",
+  },
+  Object {
+    "assetClass": "Credit",
+    "price": 2321.17,
+    "ticker": "KAPPA",
+  },
+  Object {
+    "assetClass": "Credit",
+    "price": 1472.2,
+    "ticker": "LAMBDA",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": 2136.64,
+    "ticker": "MU",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": 2744.89,
+    "ticker": "NU",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 2735.1,
+    "ticker": "OMIKRON",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 1854.19,
+    "ticker": "SIGMA",
+  },
+  Object {
+    "assetClass": "Macro",
+    "price": 2082.71,
+    "ticker": "TAU",
+  },
+  Object {
+    "assetClass": "Equities",
+    "price": 2306.35,
+    "ticker": "OMEGA",
+  },
+  Object {
+    "assetClass": "Credit",
+    "price": 2997.78,
+    "ticker": "PSI",
+  },
+]
+`;
