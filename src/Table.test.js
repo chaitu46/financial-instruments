@@ -1,6 +1,12 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { Table } from "./Table";
-import { ASSERT_ID, COLUMN_NAMES, PRICE_ID, TICKER_ID } from "./constants";
+import {
+  ASSERT_ID,
+  COLORS,
+  COLUMN_NAMES,
+  PRICE_ID,
+  TICKER_ID,
+} from "./constants";
 
 const testData = [
   {
@@ -127,5 +133,70 @@ describe("Table", () => {
     }));
     fireEvent.click(screen.getByTestId(PRICE_ID));
     expect(mockGetSortByColumnName).not.toBeCalled();
+  });
+  test("background colors of the table rows should be in blue when asset value is 'Equities'", () => {
+    const testData = [
+      {
+        ticker: "BETA",
+        price: 3791.37,
+        assetClass: "Equities",
+      },
+    ];
+    render(<Table initialData={testData} />);
+    expect(screen.getByText("Equities").parentElement).toHaveStyle(
+      `background-color: ${COLORS.blue}`
+    );
+  });
+  test("background colors of the table rows should be in white when asset value is 'Macro'", () => {
+    const testData = [
+      {
+        ticker: "BETA",
+        price: 3791.37,
+        assetClass: "Macro",
+      },
+    ];
+    render(<Table initialData={testData} />);
+    expect(screen.getByText("Macro").parentElement).toHaveStyle(
+      `background-color: ${COLORS.white}`
+    );
+  });
+  test("background colors of the table rows should be in green when asset value is 'Credit'", () => {
+    const testData = [
+      {
+        ticker: "BETA",
+        price: 3791.37,
+        assetClass: "Credit",
+      },
+    ];
+    render(<Table initialData={testData} />);
+    expect(screen.getByText("Credit").parentElement).toHaveStyle(
+      `background-color: ${COLORS.green}`
+    );
+  });
+  test("Price cell background color should be in blue if the price value is positive'", () => {
+    const testData = [
+      {
+        ticker: "BETA",
+        price: 3791.37,
+        assetClass: "Credit",
+      },
+    ];
+    render(<Table initialData={testData} />);
+    expect(screen.getByText("3791.37")).toHaveStyle(
+      `background-color: ${COLORS.blue}`
+    );
+  });
+  test("Price cell background color should be in red if the price value is negative'", () => {
+    const testData = [
+      {
+        ticker: "BETA",
+        price: -3791.37,
+        assetClass: "Credit",
+      },
+    ];
+    render(<Table initialData={testData} />);
+    expect(screen.getByText("-3791.37")).toHaveStyle(
+      `background-color: ${COLORS.red}`
+    );
   });
 });
