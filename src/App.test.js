@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
+// mocked to get shortened sample data to avoid large snapshots and tests should not break if there is any change in actual data.
 jest.mock("./hooks/useSampleData", () => () => testData);
 
 const testData = [
