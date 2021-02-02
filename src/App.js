@@ -1,9 +1,10 @@
-import useSampleData from "./hooks/useSampleData";
+import getSampleData from "./sampleData";
 import { StyledAppTitle, StyledTableContainer } from "./styledComponents";
 import { Table } from "./Table";
 
+const sampleData = getSampleData(); // getting sample data from function
+
 export const App = () => {
-  const sampleData = useSampleData(); // getting sample from custom hook, So custom hook can be leveraged for API call fetch in future.
   return (
     <div>
       <StyledAppTitle>Financial Instruments - Assessment</StyledAppTitle>

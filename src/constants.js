@@ -9,8 +9,6 @@ export const COLORS = {
   lightGrey: "#cccccc",
 };
 
-export const SAMPLE_DATA_FETCH_URL = "./sampleData.json";
-
 export const ASSERT_ID = "assertClass";
 export const TICKER_ID = "ticker";
 export const PRICE_ID = "price";
